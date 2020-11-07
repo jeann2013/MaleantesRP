@@ -1,0 +1,61 @@
+/* Inicio Selectores ID */
+
+body {
+    width: 100%;
+    overflow: hidden;
+}
+
+#StatusHud
+{
+    position: absolute;
+    bottom: 0.7vh;
+    left: 0.7vh;
+}
+
+#StatusHud #zone
+{
+    display: none;
+}
+
+/* Fin Selectores ID */
+
+/* Inicio Selectores de clase */
+
+.statback
+{
+    background-color: rgba(0, 0, 0, 0.671);
+    color: white;
+    padding: 0.7vh ;
+    text-align: center;
+    margin-top: 0.2vh;
+    border-radius: 0.4vh;
+}
+
+.fas
+{
+    font-size:0.7rem;
+    vertical-align: middle;
+}
+
+.textstat 
+{
+    width: 2vh;
+    float: right;
+    text-align: right;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.0vh;
+    margin-top: -0.25vh;
+}
+
+.red
+{
+    width: 2.2vh;
+    float: right;
+    padding-left: 0.5vh;
+    text-align: right;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.0vh;
+    color : red;
+}
+
+/* Fin Selectores de clase */
