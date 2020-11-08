@@ -3,7 +3,7 @@ local VERSION = "2.0.6"
 
 AddEventHandler("onResourceStart", function(resource)
     if resource == GetCurrentResourceName() then
-        checkVersion()
+        --checkVersion()
     end
 end)
 
