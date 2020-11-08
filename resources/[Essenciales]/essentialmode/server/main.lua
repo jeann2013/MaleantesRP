@@ -74,7 +74,7 @@ end
 -- Perform version check periodically while server is running. To notify of updates.
 Citizen.CreateThread(function()
 	while true do
-		performVersionCheck()
+		--performVersionCheck()
 		Citizen.Wait(3600000)
 	end
 end)

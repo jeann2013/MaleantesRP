@@ -78,13 +78,13 @@ ESX.RegisterServerCallback('esx_weaponshop:buyWeapon', function(source, cb, weap
 				TriggerClientEvent('esx:showNotification', source, _U('not_enough'))
 				cb(false)
 			end
-	
+
 		end
 	end
 end)
 
 function GetPrice(weaponName, zone)
-	local price = MySQL.Sync.fetchScalar('SELECT price FROM weashops WHERE zone = @zone AND item = @item', {
+	local price = MySQL.Sync.fetchScalar('SELECT price FROM `weashops` WHERE zone = @zone AND item = @item', {
 		['@zone'] = zone,
 		['@item'] = weaponName
 	})
