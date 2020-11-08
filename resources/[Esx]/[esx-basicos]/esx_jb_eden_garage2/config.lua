@@ -371,14 +371,16 @@ Config.Garages = {
 		HelpPrompt = "Presiona ~INPUT_PICKUP~ para abrir el garaje.",
 		Functionmenu = OpenMenuGarage,
 		SpawnPoint = {
-			Pos = {x = -569.47564697266,y = 323.53549194336,z = 84.474433898926 },
+			--Pos = {x = -569.47564697266,y = 323.53549194336,z = 84.474433898926 },
+			Pos = {x = -565.2,y = 313.04,z = 84.4 },
 			Heading = 22.52,
 			Marker = { w= 1.5, h= 1.0,r=0,g=255,b=0},
 			HelpPrompt = "Presiona ~INPUT_PICKUP~ para sacar su vehículo.",
 			Functionmenu = ListVehiclesMenu,
 		},
 		DeletePoint = {
-			Pos = {x = -565.2,y = 313.04,z = 84.4 },
+			--Pos = {x = -565.2,y = 313.04,z = 84.4 },
+			Pos = {x = -580.67,y = 330.3,z = 84.81 },
 			Marker = { w= 1.5, h= 1.0,r=255,g=0,b=0},
 			HelpPrompt = "Presiona ~INPUT_PICKUP~ para guardar su vehículo.",
 			Functionmenu = StockVehicleMenu,
