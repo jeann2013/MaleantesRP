@@ -2,6 +2,7 @@ var visable = false;
 
 $(function () {
 	window.addEventListener('message', function (event) {
+
 		switch (event.data.action) {
 			case 'toggle':
 				if (visable) {
@@ -60,8 +61,8 @@ $(function () {
 				break;
 
 			case 'updatePing':
+				$('#pinPlayer').remove();
 				updatePing(event.data.players);
-				document.getElementById("pinms").remove();
 				applyPingColor();
 				break;
 
@@ -89,15 +90,18 @@ $(function () {
 
 function applyPingColor() {
 	$('#playerlist tr').each(function () {
-		$(this).find('td:nth-child(2),td:nth-child(4),td:nth-child(6),td:nth-child(8)').each(function () {
+		$(this).find('td:nth-child(3),td:nth-child(6),td:nth-child(9),td:nth-child(12)').each(function () {
 			var ping = $(this).html();
 			var color = 'green';
+
 			if (ping > 150 && ping < 300) {
 				color = 'orange';
 			} else if (ping >= 300) {
 				color = 'red';
 			}
-			$(this).html(ping + " <span id='pinms' style='color:white;'>ms</span>");
+
+			$(this).css('color', color);
+			$(this).html(ping + " <span id='pinPlayer' style='color:white;'>ms</span>");
 		});
 
 	});
@@ -111,14 +115,14 @@ function updatePing(players) {
 				$(this).find('td:nth-child(2):contains(' + element.id + ')').each(function () {
 					$(this).parent().find('td').eq(2).html(element.ping);
 				});
-				$(this).find('td:nth-child(4):contains(' + element.id + ')').each(function () {
-					$(this).parent().find('td').eq(4).html(element.ping);
-				});
-				$(this).find('td:nth-child(6):contains(' + element.id + ')').each(function () {
-					$(this).parent().find('td').eq(6).html(element.ping);
+				$(this).find('td:nth-child(5):contains(' + element.id + ')').each(function () {
+					$(this).parent().find('td').eq(5).html(element.ping);
 				});
 				$(this).find('td:nth-child(8):contains(' + element.id + ')').each(function () {
 					$(this).parent().find('td').eq(8).html(element.ping);
+				});
+				$(this).find('td:nth-child(11):contains(' + element.id + ')').each(function () {
+					$(this).parent().find('td').eq(11).html(element.ping);
 				});
 			});
 		}

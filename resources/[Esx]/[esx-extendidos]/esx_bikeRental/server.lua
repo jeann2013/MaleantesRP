@@ -11,6 +11,6 @@ end)
 
 Citizen.CreateThread(function()
 	Citizen.Wait(5000)
-	local ver = "5.0"
-	print("DISFRUTA DEL SERVIDOR! v"..ver)
+	local ver = "1.0"
+	print("MaleantesRP! v"..ver)
 end)
