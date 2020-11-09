@@ -460,37 +460,37 @@ Config.Menus = {
 		label = _U('engine'),
 		parent = 'upgrades',
 		modType = 11,
-		price = {6.20, 6.40, 6.60, 6.70}
+		price = {2.20, 2.40, 2.60, 2.70}
 	},
 	modBrakes = {
 		label = _U('brakes'),
 		parent = 'upgrades',
 		modType = 12,
-		price = {4.20, 4.40, 4.60, 4.70}
+		price = {0.20, 0.40, 0.60, 0.70}
 	},
 	modTransmission = {
 		label = _U('transmission'),
 		parent = 'upgrades',
 		modType = 13,
-		price = {3.20, 3.40, 3.60, 3.70}
+		price = {1.20, 1.40, 1.60, 1.70}
 	},
 	modSuspension = {
 		label = _U('suspension'),
 		parent = 'upgrades',
 		modType = 15,
-		price = {6.20, 6.40, 6.60, 6.70}
+		price = {0.20, 0.40, 0.60, 0.70}
 	},
 	modArmor = {
 		label = _U('armor'),
 		parent = 'upgrades',
 		modType = 16,
-		price = {6.20, 6.40, 6.60, 6.70}
+		price = {1.20, 1.40, 1.60, 1.70}
 	},
 	modTurbo = {
 		label = _U('turbo'),
 		parent = 'upgrades',
 		modType = 17,
-		price = {150}
+		price = {15}
 	},
 	cosmetics = {
 		label				= _U('cosmetics'),
@@ -532,139 +532,139 @@ Config.Menus = {
 		label = _U('modplateholder'),
 		parent = 'cosmetics',
 		modType = 25,
-		price = 150
+		price = 15
 	},
 	modVanityPlate = {
 		label = _U('modvanityplate'),
 		parent = 'cosmetics',
 		modType = 26,
-		price = 200
+		price = 20
 	},
 	modTrimA = {
 		label = _U('interior'),
 		parent = 'cosmetics',
 		modType = 27,
-		price = 80
+		price = 8
 	},
 	modOrnaments = {
 		label = _U('trim'),
 		parent = 'cosmetics',
 		modType = 28,
-		price = 30
+		price = 3
 	},
 	modDashboard = {
 		label = _U('dashboard'),
 		parent = 'cosmetics',
 		modType = 29,
-		price = 100
+		price = 10
 	},
 	modDial = {
 		label = _U('speedometer'),
 		parent = 'cosmetics',
 		modType = 30,
-		price = 350
+		price = 35
 	},
 	modDoorSpeaker = {
 		label = _U('door_speakers'),
 		parent = 'cosmetics',
 		modType = 31,
-		price = 25
+		price = 2
 	},
 	modSeats = {
 		label = _U('seats'),
 		parent = 'cosmetics',
 		modType = 32,
-		price = 200
+		price = 20
 	},
 	modSteeringWheel = {
 		label = _U('steering_wheel'),
 		parent = 'cosmetics',
 		modType = 33,
-		price = 600
+		price = 60
 	},
 	modShifterLeavers = {
 		label = _U('gear_lever'),
 		parent = 'cosmetics',
 		modType = 34,
-		price = 500
+		price = 50
 	},
 	modAPlate = {
 		label = _U('quarter_deck'),
 		parent = 'cosmetics',
 		modType = 35,
-		price = 600
+		price = 60
 	},
 	modSpeakers = {
 		label = _U('speakers'),
 		parent = 'cosmetics',
 		modType = 36,
-		price = 15
+		price = 1
 	},
 	modTrunk = {
 		label = _U('trunk'),
 		parent = 'cosmetics',
 		modType = 37,
-		price = 25
+		price = 2
 	},
 	modHydrolic = {
 		label = _U('hydraulic'),
 		parent = 'cosmetics',
 		modType = 38,
-		price = 20
+		price = 2
 	},
 	modEngineBlock = {
 		label = _U('engine_block'),
 		parent = 'cosmetics',
 		modType = 39,
-		price = 500
+		price = 50
 	},
 	modAirFilter = {
 		label = _U('air_filter'),
 		parent = 'cosmetics',
 		modType = 40,
-		price = 100
+		price = 10
 	},
 	modStruts = {
 		label = _U('struts'),
 		parent = 'cosmetics',
 		modType = 41,
-		price = 15
+		price = 1
 	},
 	modArchCover = {
 		label = _U('arch_cover'),
 		parent = 'cosmetics',
 		modType = 42,
-		price = 15
+		price = 1
 	},
 	modAerials = {
 		label = _U('aerials'),
 		parent = 'cosmetics',
 		modType = 43,
-		price = 0
+		price = 2
 	},
 	modTrimB = {
 		label = _U('wings'),
 		parent = 'cosmetics',
 		modType = 44,
-		price = 20
+		price = 2
 	},
 	modTank = {
 		label = _U('fuel_tank'),
 		parent = 'cosmetics',
 		modType = 45,
-		price = 30
+		price = 3
 	},
 	modWindows = {
 		label = _U('windows'),
 		parent = 'cosmetics',
 		modType = 46,
-		price = 20
+		price = 2
 	},
 	modLivery = {
 		label = _U('stickers'),
 		parent = 'cosmetics',
 		modType = 48,
-		price = 10
+		price = 1
 	},
 
 	wheels = {
@@ -691,56 +691,56 @@ Config.Menus = {
 		parent = 'modFrontWheelsTypes',
 		modType = 23,
 		wheelType = 0,
-		price = 200
+		price = 20
 	},
 	modFrontWheelsType1 = {
 		label = _U('muscle'),
 		parent = 'modFrontWheelsTypes',
 		modType = 23,
 		wheelType = 1,
-		price = 300
+		price = 30
 	},
 	modFrontWheelsType2 = {
 		label = _U('lowrider'),
 		parent = 'modFrontWheelsTypes',
 		modType = 23,
 		wheelType = 2,
-		price = 100
+		price = 10
 	},
 	modFrontWheelsType3 = {
 		label = _U('suv'),
 		parent = 'modFrontWheelsTypes',
 		modType = 23,
 		wheelType = 3,
-		price = 250
+		price = 25
 	},
 	modFrontWheelsType4 = {
 		label = _U('allterrain'),
 		parent = 'modFrontWheelsTypes',
 		modType = 23,
 		wheelType = 4,
-		price = 400
+		price = 40
 	},
 	modFrontWheelsType5 = {
 		label = _U('tuning'),
 		parent = 'modFrontWheelsTypes',
 		modType = 23,
 		wheelType = 5,
-		price = 450
+		price = 45
 	},
 	modFrontWheelsType6 = {
 		label = _U('motorcycle'),
 		parent = 'modFrontWheelsTypes',
 		modType = 23,
 		wheelType = 6,
-		price = 150
+		price = 15
 	},
 	modFrontWheelsType7 = {
 		label = _U('highend'),
 		parent = 'modFrontWheelsTypes',
 		modType = 23,
 		wheelType = 7,
-		price = 200
+		price = 20
 	},
 	modFrontWheelsColor = {
 		label = _U('wheel_color'),
@@ -750,13 +750,13 @@ Config.Menus = {
 		label = _U('wheel_color'),
 		parent = 'modFrontWheelsColor',
 		modType = 'wheelColor',
-		price = 10
+		price = 1
 	},
 	plateIndex = {
 		label = _U('licenseplates'),
 		parent = 'cosmetics',
 		modType = 'plateIndex',
-		price = 100
+		price = 10
 	},
 	resprays = {
 		label = _U('respray'),
@@ -781,25 +781,25 @@ Config.Menus = {
 		label = _U('primary'),
 		parent = 'primaryRespray',
 		modType = 'color1',
-		price = 250
+		price = 25
 	},
 	color2 = {
 		label = _U('secondary'),
 		parent = 'secondaryRespray',
 		modType = 'color2',
-		price = 120
+		price = 12
 	},
 	pearlescentColor = {
 		label = _U('pearlescent'),
 		parent = 'pearlescentRespray',
 		modType = 'pearlescentColor',
-		price = 150
+		price = 15
 	},
 	modXenon = {
 		label = _U('headlights'),
 		parent = 'cosmetics',
 		modType = 22,
-		price = 150
+		price = 15
 	},
 	bodyparts = {
 		label = _U('bodyparts'),
@@ -820,91 +820,91 @@ Config.Menus = {
 		label = _U('spoilers'),
 		parent = 'bodyparts',
 		modType = 0,
-		price = 100
+		price = 10
 	},
 	modFrontBumper = {
 		label = _U('frontbumper'),
 		parent = 'bodyparts',
 		modType = 1,
-		price = 100
+		price = 10
 	},
 	modRearBumper = {
 		label = _U('rearbumper'),
 		parent = 'bodyparts',
 		modType = 2,
-		price = 100
+		price = 10
 	},
 	modSideSkirt = {
 		label = _U('sideskirt'),
 		parent = 'bodyparts',
 		modType = 3,
-		price = 100
+		price = 10
 	},
 	modExhaust = {
 		label = _U('exhaust'),
 		parent = 'bodyparts',
 		modType = 4,
-		price = 25
+		price = 2
 	},
 	modFrame = {
 		label = _U('cage'),
 		parent = 'bodyparts',
 		modType = 5,
-		price = 25
+		price = 2
 	},
 	modGrille = {
 		label = _U('grille'),
 		parent = 'bodyparts',
 		modType = 6,
-		price = 30
+		price = 3
 	},
 	modHood = {
 		label = _U('hood'),
 		parent = 'bodyparts',
 		modType = 7,
-		price = 250
+		price = 25
 	},
 	modFender = {
 		label = _U('leftfender'),
 		parent = 'bodyparts',
 		modType = 8,
-		price = 25
+		price = 2
 	},
 	modRightFender = {
 		label = _U('rightfender'),
 		parent = 'bodyparts',
 		modType = 9,
-		price = 25
+		price = 2
 	},
 	modRoof = {
 		label = _U('roof'),
 		parent = 'bodyparts',
 		modType = 10,
-		price = 30
+		price = 3
 	},
 	windowTint = {
 		label = _U('windowtint'),
 		parent = 'cosmetics',
 		modType = 'windowTint',
-		price = 30
+		price = 3
 	},
 	modHorns = {
 		label = _U('horns'),
 		parent = 'cosmetics',
 		modType = 14,
-		price = 30
+		price = 3
 	},
 	neonColor = {
 		label = _U('neons'),
 		parent = 'cosmetics',
 		modType = 'neonColor',
-		price = 150
+		price = 10
 	},
 	tyreSmokeColor = {
 		label = _U('tiresmoke'),
 		parent = 'wheels',
 		modType = 'tyreSmokeColor',
-		price = 150
+		price = 12
 	}
 
 }
