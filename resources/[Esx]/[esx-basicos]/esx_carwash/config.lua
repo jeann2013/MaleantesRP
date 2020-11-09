@@ -10,8 +10,8 @@ Config.Locale = 'en'
 -- Blip related settings.
 Config.ShowBlips = true     -- Show blips? ( true | false )
 Config.BlipColor = 4        -- Blip color. ( https://wiki.rage.mp/index.php?title=Blips#Blip_colors )
-Config.BlipDisplay = 2      -- Blip display (0 = Don't show, 2 = On main and minimap, 3 = Main map only, 5 = Minimap only)
-Config.BlipScale = 0.7      -- Blip scale. Recommended: 1.0 - 0.5
+Config.BlipDisplay = 3      -- Blip display (0 = Don't show, 2 = On main and minimap, 3 = Main map only, 5 = Minimap only)
+Config.BlipScale = 1.0      -- Blip scale. Recommended: 1.0 - 0.5
 Config.BlipSprite = 100     -- Blip type. ( https://wiki.rage.mp/index.php?title=Blips#Blip_model )
 
 
@@ -25,12 +25,12 @@ Config.MarkerColor = { r = 255, g = 255, b = 255, a = 35 }  -- Marker color. Red
 
 
 -- Price multiplied by dirt level. There's 16 dirt levels, from 0 to 15. Price 4 means completely dirty car costs $60 to clean.
-Config.Price = 4
+Config.Price = 15
 
 
 
 -- Specify how long it takes to clean the vehicle in seconds. Set to 0 for instant clean.
-Config.Timer = 5
+Config.Timer = 6
 
 
 

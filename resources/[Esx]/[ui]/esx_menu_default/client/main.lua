@@ -59,6 +59,8 @@ Citizen.CreateThread(function()
 
 		if menu.cancel ~= nil then
 			menu.cancel(data, menu)
+		else
+			menu.cancel(data, menu)
 		end
 
 		cb('OK')

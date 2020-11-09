@@ -219,9 +219,9 @@ Citizen.CreateThread( function()
 				ESX.TriggerServerCallback('esx_skin:getPlayerSkin', function(skin, jobSkin)
 					local sex = nil
 					if skin.sex == 0 then
-						sex = "mężczyznę" --male/change it to your language
+						sex = "Un hombre" --male/change it to your language
 					else
-						sex = "kobietę" --female/change it to your language
+						sex = "Una mujer" --female/change it to your language
 					end
 					TriggerServerEvent('drugsInProgressPos', plyPos.x, plyPos.y, plyPos.z)
 					if s2 == 0 then
@@ -236,9 +236,9 @@ Citizen.CreateThread( function()
 				ESX.TriggerServerCallback('esx_skin:getPlayerSkin', function(skin, jobSkin)
 					local sex = nil
 					if skin.sex == 0 then
-						sex = "mężczyznę"
+						sex = "Un hombre"
 					else
-						sex = "kobietę"
+						sex = "Una mujer"
 					end
 					TriggerServerEvent('drugsInProgressPos', plyPos.x, plyPos.y, plyPos.z)
 					if s2 == 0 then
