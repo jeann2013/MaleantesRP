@@ -1,0 +1,33 @@
+-- ## 3dme : shared config file
+
+Config = {
+    language = 'es',
+    visual = {
+        color = { r = 230, g = 230, b = 230, a = 255 }, -- Text color
+        font = 0, -- Text font
+        time = 5000, -- Duration to display the text (in ms)
+        scale = 0.5, -- Text scale
+        dist = 250, -- Min. distance to draw 
+    },
+}
+
+Languages = {
+    ['en'] = {
+        commandName = 'me',
+        commandDescription = 'Display an action above your head.',
+        commandSuggestion = {{ name = 'action', help = '"scratch his nose" for example.'}},
+        prefix = 'the person '
+    },
+    ['es'] = {
+        commandName = 'me',
+        commandDescription = 'Muestre una acción sobre su cabeza.',
+        commandSuggestion = {{ name = 'action', help = '"rascarse la naris" por ejemplo.'}},
+        prefix = 'la persona '
+    },
+    ['fr'] = {
+        commandName = 'me',
+        commandDescription = 'Affiche une action au dessus de votre tête.',
+        commandSuggestion = {{ name = 'action', help = '"se gratte le nez" par exemple.'}},
+        prefix = 'l\'individu '
+    },
+}

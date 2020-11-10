@@ -11,7 +11,7 @@ Config['SelectableButtons'] = { -- find controls here https://docs.fivem.net/doc
     {'~INPUT_VEH_PREV_RADIO_TRACK~', 84}
 }
 
-Config['OpenMenu'] = 19 -- button to open menu, set to false to disable hardcoded button opening (e.g if you want to add it to your own menu) 
+Config['OpenMenu'] = false -- button to open menu, set to false to disable hardcoded button opening (e.g if you want to add it to your own menu)
 Config['CancelAnimation'] = 105
 -- TriggerEvent('loffe_animations:openMenu') < event to open the menu
 
