@@ -466,7 +466,7 @@ Config.Menus = {
 		label = _U('brakes'),
 		parent = 'upgrades',
 		modType = 12,
-		price = {0.20, 0.40, 0.60, 0.70}
+		price = {0.90, 1.80, 2.60, 3.50}
 	},
 	modTransmission = {
 		label = _U('transmission'),
@@ -478,19 +478,19 @@ Config.Menus = {
 		label = _U('suspension'),
 		parent = 'upgrades',
 		modType = 15,
-		price = {0.20, 0.40, 0.60, 0.70}
+		price = {1.20, 1.40, 1.60, 1.70}
 	},
 	modArmor = {
 		label = _U('armor'),
 		parent = 'upgrades',
 		modType = 16,
-		price = {1.20, 1.40, 1.60, 1.70}
+		price = {2.20, 2.40, 2.60, 3.70}
 	},
 	modTurbo = {
 		label = _U('turbo'),
 		parent = 'upgrades',
 		modType = 17,
-		price = {15}
+		price = {25}
 	},
 	cosmetics = {
 		label				= _U('cosmetics'),
@@ -781,13 +781,13 @@ Config.Menus = {
 		label = _U('primary'),
 		parent = 'primaryRespray',
 		modType = 'color1',
-		price = 25
+		price = 20
 	},
 	color2 = {
 		label = _U('secondary'),
 		parent = 'secondaryRespray',
 		modType = 'color2',
-		price = 12
+		price = 15
 	},
 	pearlescentColor = {
 		label = _U('pearlescent'),

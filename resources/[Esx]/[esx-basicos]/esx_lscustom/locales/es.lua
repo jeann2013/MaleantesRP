@@ -218,7 +218,7 @@ Locales['es'] = {
   ['exhaust'] = 'Exhaust',
   ['roof'] = 'Techo',
   -- Paint
-  ['respray'] = 'Respray',
+  ['respray'] = 'Pintura',
   ['primary'] = 'Primario',
   ['secondary'] = 'Secondario',
   ['pearlescent'] = 'Nacarado',
