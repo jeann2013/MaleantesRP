@@ -1,0 +1,1 @@
+INSERT INTO `categories` (`name`, `label`) VALUES ('ultra', 'Ultra');
