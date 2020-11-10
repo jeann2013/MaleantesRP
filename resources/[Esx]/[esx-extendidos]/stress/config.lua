@@ -28,5 +28,5 @@ MFS.StaticRelief    = 0.1 -- % stress relieved over time from events like swimmi
 MFS.StaticAdder     = 0.2 -- % stress gained over time from things like driving too fast.
 MFS.CombatAdder     = 0.3 -- % stress gained while in combat
 MFS.ShootingAdder   = 0.4 -- % stress gained while shooting
-MFS.StressAtSpeed   = 230 -- kph
+MFS.StressAtSpeed   = 210 -- kph
 MFS.RelaxAtSpeed    = 60  -- kph
