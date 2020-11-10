@@ -16,10 +16,9 @@ INSERT INTO `items` (`name`, `label`, `limit`, `rare`, `can_remove`) VALUES
 	('hydrochloric_acid', 'HydroChloric Acid', 15, 0, 1),
 	('sodium_hydroxide', 'Sodium Hydroxide', 15, 0, 1),
 	('sulfuric_acid', 'Sulfuric Acid', 15, 0, 1),
-	('thionyl_chloride', 'Thionyl Chloride', 100, 0, 1)
-;
+	('thionyl_chloride', 'Thionyl Chloride', 100, 0, 1);
 
 INSERT INTO `licenses` (`type`, `label`) VALUES
-	('weed_processing', 'Weed Processing License')
+	('weed_processing', 'Weed Processing License'),
 	('chemicalslisence', 'Chemicals license')
 ;
