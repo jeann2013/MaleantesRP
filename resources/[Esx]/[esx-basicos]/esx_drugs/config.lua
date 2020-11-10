@@ -3,12 +3,12 @@ Config = {}
 Config.Locale = 'es'
 
 Config.Delays = {
-	WeedProcessing = 1000 * 10,
-	MethProcessing = 1000 * 10,
-	CokeProcessing = 1000 * 10,
-	lsdProcessing = 1000 * 10,
-	HeroinProcessing = 1000 * 10,
-	thionylchlorideProcessing = 1000 * 10,
+	WeedProcessing = 100 * 10,
+	MethProcessing = 100 * 10,
+	CokeProcessing = 100 * 10,
+	lsdProcessing = 100 * 10,
+	HeroinProcessing = 100 * 10,
+	thionylchlorideProcessing = 100 * 10,
 }
 
 Config.DrugDealerItems = {
@@ -26,8 +26,8 @@ Config.ChemicalsConvertionItems = {
 	lsa = 0,
 }
 
-Config.ChemicalsLicenseEnabled = false --Will Enable or Disable the need for a Chemicals License.
-Config.MoneyWashLicenseEnabled = false --Will Enable or Disable the need for a MoneyWash License.
+Config.ChemicalsLicenseEnabled = true --Will Enable or Disable the need for a Chemicals License.
+Config.MoneyWashLicenseEnabled = true --Will Enable or Disable the need for a MoneyWash License.
 
 Config.LicensePrices = {
 	weed_processing = {label = _U('license_weed'), price = 15000}
@@ -74,5 +74,5 @@ Config.CircleZones = {
 	LicenseShop = {coords = vector3(707.17, -962.5, 30.4), name = _U('blip_lsdprocessing'),color = 25, sprite = 496, radius = 20.0},
 	
 	--MoneyWash
-	MoneyWash = {coords = vector3(8.84, -1103.8, -29.8), name = _U('blip_drugdealer'), color = 6, sprite = 378, radius = 25.0},
+	MoneyWash = {coords = vector3(1641.93, 4863.31, 42.02), name = _U('blip_drugdealer'), color = 6, sprite = 378, radius = 25.0},
 }
