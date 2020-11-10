@@ -1,1 +1,1 @@
-INSERT INTO `categories` (`name`, `label`) VALUES ('ultra', 'Ultra');
+INSERT INTO `vehicle_categories` (`name`, `label`) VALUES ('ultra', 'Ultra');
