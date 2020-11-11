@@ -1,0 +1,1 @@
+UPDATE `items` SET `label` = 'Paquetes de tablas' WHERE (`name` = 'packaged_plank');
