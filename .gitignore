@@ -2,3 +2,4 @@
 cache/*
 alpine/*
 server.cfg
+run.sh
