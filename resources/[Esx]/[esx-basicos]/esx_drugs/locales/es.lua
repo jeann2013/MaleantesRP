@@ -100,4 +100,16 @@ Locales ['es'] = {
   ['blip_methfield'] = 'Campo de Metanfetamina',
   ['blip_methprocessing'] = 'Tratamiento de Metanfetamina',
   ['blip_drugdealer'] = 'Narcotraficante',
+  ['blip_ChemicalsProcessing'] = 'Procesamiento químico',
+  ['blip_ChemicalsFarm'] = 'Granja química',
+  ['blip_CokeFarm'] = 'Granja de coca',
+  ['blip_Cokeprocessing'] = 'Producción de coca',
+  ['blip_herionfield'] = 'Graja de heroína',
+  ['blip_heroinprocessing'] = 'Fabricación de heroína',
+  ['blip_HydrochloricAcidFarm'] = 'Granja de ácido clorhídrico',
+  ['blip_lsdprocessing'] = 'Producción de LSD',
+  ['blip_SodiumHydroxideFarm'] = 'Granja de hidróxido de sodio',
+  ['blip_SulfuricAcidFarm'] = 'Granja de ácido sulfúrico',
+
+
 }
