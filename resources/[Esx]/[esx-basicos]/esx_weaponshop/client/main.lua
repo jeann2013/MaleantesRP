@@ -124,7 +124,7 @@ function DisplayBoughtScaleform(weaponName, price)
 		while sec > 0 do
 			Citizen.Wait(0)
 			sec = sec - 0.01
-	
+
 			DrawScaleformMovieFullscreen(scaleform, 255, 255, 255, 255)
 		end
 	end)
@@ -207,7 +207,7 @@ Citizen.CreateThread(function()
 			HasAlreadyEnteredMarker = true
 			TriggerEvent('esx_weaponshop:hasEnteredMarker', currentZone)
 		end
-		
+
 		if not isInMarker and HasAlreadyEnteredMarker then
 			HasAlreadyEnteredMarker = false
 			TriggerEvent('esx_weaponshop:hasExitedMarker', LastZone)
@@ -242,5 +242,23 @@ Citizen.CreateThread(function()
 				CurrentAction = nil
 			end
 		end
+	end
+end)
+
+-- thx to Pandorina for script
+RegisterNetEvent('esx_weashop:clipcli')
+AddEventHandler('esx_weashop:clipcli', function()
+	ped = GetPlayerPed(-1)
+	if IsPedArmed(ped, 4) then
+		hash=GetSelectedPedWeapon(ped)
+		if hash~=nil then
+			TriggerServerEvent('esx_weashop:remove')
+			AddAmmoToPed(GetPlayerPed(-1), hash,25)
+			ESX.ShowNotification("Usastes un cargador")
+		else
+			ESX.ShowNotification("No tienes armas en la mano")
+		end
+	else
+		ESX.ShowNotification("Este tipo de munición no es adecuado")
 	end
 end)

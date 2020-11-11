@@ -1,4 +1,4 @@
-$("#StatusHud #zona").hide();
+// $("#StatusHud #zona").hide();
 $("#StatusHud #zona2").hide();
 
 print = function(msg)
