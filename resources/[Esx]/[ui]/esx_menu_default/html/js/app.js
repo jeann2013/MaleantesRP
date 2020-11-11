@@ -164,6 +164,8 @@
 
 	window.onData = (data) => {
 
+		console.log(data);
+
 		switch (data.action) {
 
 			case 'openMenu': {

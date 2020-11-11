@@ -23,7 +23,6 @@ Citizen.CreateThread(function()
 	local MenuType = 'default'
 
 	local openMenu = function(namespace, name, data)
-		print(data);
 		SendNUIMessage({
 			action    = 'openMenu',
 			namespace = namespace,

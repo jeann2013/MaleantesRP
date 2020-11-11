@@ -83,7 +83,7 @@ Locales['fr'] = {
 	['wallet_check_firearms_button'] = 'Regarder son permis port d\'armes',
 
 	-- Bills Menu
-	['bills_title'] = 'Factures',
+	['bills_title'] = 'Facturas',
 
 	-- Clothes Menu
 	['clothes_title'] = 'Vêtements',
