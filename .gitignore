@@ -1,3 +1,4 @@
 .idea/*
 cache/*
-alpine/opt/cfx-server/crashes/*
+alpine/*
+server.cfg
