@@ -95,6 +95,7 @@ Locales ['es'] = {
   ['moneywash_prompt'] = 'Presiona ~INPUT_CONTEXT~ para abrir el ~r~Menu de Lavado de dinero~s~.',
   
   -- blips
+  ['blip_WeedFarm'] = 'Graja de hierva',
   ['blip_weedfield'] = 'Campo de cannabis',
   ['blip_weedprocessing'] = 'Tratamiento de Cannabis',
   ['blip_methfield'] = 'Campo de Metanfetamina',
@@ -104,7 +105,7 @@ Locales ['es'] = {
   ['blip_ChemicalsFarm'] = 'Granja química',
   ['blip_CokeFarm'] = 'Granja de coca',
   ['blip_Cokeprocessing'] = 'Producción de coca',
-  ['blip_herionfield'] = 'Graja de heroína',
+  ['blip_heroinfield'] = 'Graja de heroína',
   ['blip_heroinprocessing'] = 'Fabricación de heroína',
   ['blip_HydrochloricAcidFarm'] = 'Granja de ácido clorhídrico',
   ['blip_lsdprocessing'] = 'Producción de LSD',
