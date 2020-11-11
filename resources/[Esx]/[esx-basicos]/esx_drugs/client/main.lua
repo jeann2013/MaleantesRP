@@ -42,14 +42,14 @@ Citizen.CreateThread(function()
 					OpenDrugShop()
 				end
 			else
-				Citizen.Wait(0)
+				Citizen.Wait(50)
 			end
-			else
-			if wasOpen then
-				wasOpen = false
-				ESX.UI.Menu.CloseAll()
-			end
-			Citizen.Wait(0)
+			--else
+			--if wasOpen then
+			--	wasOpen = false
+			--	ESX.UI.Menu.CloseAll()
+			--end
+			--Citizen.Wait(0)
 		end
 	end
 end)
@@ -156,7 +156,14 @@ function CreateBlipCircle(coords, text, radius, color, sprite)
 	EndTextCommandSetBlipName(blip)
 end
 Citizen.CreateThread(function()
-	for k,zone in pairs(Config.CircleZones) do
-		CreateBlipCircle(zone.coords, zone.name, zone.radius, zone.color, zone.sprite)
+	if Config.EnableMapsBlimps then
+		for k,zone in pairs(Config.CircleZones) do
+			if zone.enabled then
+				CreateBlipCircle(zone.blimpcoords, zone.name, zone.radius, zone.color, zone.sprite)
+			end
+		end
 	end
+	--for k,zone in pairs(Config.CircleZones) do
+	--	CreateBlipCircle(zone.coords, zone.name, zone.radius, zone.color, zone.sprite)
+	--end
 end)
