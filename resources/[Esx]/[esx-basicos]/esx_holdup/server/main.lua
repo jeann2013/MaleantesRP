@@ -12,7 +12,7 @@ AddEventHandler('esx_holdup:tooFar', function(currentStore)
 
 	for i=1, #xPlayers, 1 do
 		local xPlayer = ESX.GetPlayerFromId(xPlayers[i])
-		
+
 		if xPlayer.job.name == 'police' then
 			TriggerClientEvent('esx:showNotification', xPlayers[i], _U('robbery_cancelled_at', Stores[currentStore].nameOfStore))
 			TriggerClientEvent('esx_holdup:killBlip', xPlayers[i])
@@ -62,10 +62,10 @@ AddEventHandler('esx_holdup:robberyStarted', function(currentStore)
 
 				TriggerClientEvent('esx:showNotification', _source, _U('started_to_rob', store.nameOfStore))
 				TriggerClientEvent('esx:showNotification', _source, _U('alarm_triggered'))
-				
+
 				TriggerClientEvent('esx_holdup:currentlyRobbing', _source, currentStore)
 				TriggerClientEvent('esx_holdup:startTimer', _source)
-				
+
 				Stores[currentStore].lastRobbed = os.time()
 				robbers[_source] = currentStore
 
@@ -80,7 +80,7 @@ AddEventHandler('esx_holdup:robberyStarted', function(currentStore)
 							else
 								xPlayer.addMoney(store.reward)
 							end
-							
+
 							local xPlayers, xPlayer = ESX.GetPlayers(), nil
 							for i=1, #xPlayers, 1 do
 								xPlayer = ESX.GetPlayerFromId(xPlayers[i])
