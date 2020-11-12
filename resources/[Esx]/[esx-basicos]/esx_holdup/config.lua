@@ -7,7 +7,7 @@ Config.Marker = {
 	DrawDistance = 15.0, Type = 1    -- default circle type, low draw distance due to indoors area
 }
 
-Config.PoliceNumberRequired = 0
+Config.PoliceNumberRequired = 1
 Config.TimerBeforeNewRob    = 2100 -- The cooldown timer on a store after robbery was completed / canceled, in seconds
 
 Config.MaxDistance    = 20   -- max distance from the robbary, going any longer away from it will to cancel the robbary
@@ -53,7 +53,7 @@ Stores = {
 		position = { x = 1126.80, y = -980.40, z = 45.41 },
 		reward = math.random(50000, 95000),
 		nameOfStore = "Robs Liquor. (El Rancho Blvd)",
-		secondsRemaining = 10, -- seconds
+		secondsRemaining = 170, -- seconds
 		lastRobbed = 0
 	},
 	["sanandreas_liquor"] = {
