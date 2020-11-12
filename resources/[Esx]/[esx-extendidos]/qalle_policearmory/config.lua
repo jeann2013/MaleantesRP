@@ -4,7 +4,7 @@ Config = {}
 Config.OnlyPolicemen = true
 
 -- Municion recibida.
-Config.ReceiveAmmo = 210
+Config.ReceiveAmmo = 500
 
 -- Editar si usas otra comisaria que no sea MissionRow.
 Config.Armory = { ["x"] = 452.32196044922, ["y"] = -980.03033447266, ["z"] = 30.689582824707, ["h"] = 270.0 }
