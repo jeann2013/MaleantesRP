@@ -59,13 +59,21 @@ end)
 RegisterNetEvent('esx_holdup:tooFar')
 AddEventHandler('esx_holdup:tooFar', function()
 	holdingUp, store = false, ''
-	ESX.ShowNotification(_U('robbery_cancelled'))
+	exports.notif:SendNotification({
+		text = _U('robbery_cancelled'),
+		type = 'bottomLeft',
+		timeout = 10000,
+	})
 end)
 
 RegisterNetEvent('esx_holdup:robberyComplete')
 AddEventHandler('esx_holdup:robberyComplete', function(award)
 	holdingUp, store = false, ''
-	ESX.ShowNotification(_U('robbery_complete', award))
+	exports.notif:SendNotification({
+		text = _U('robbery_complete', award),
+		type = 'bottomLeft',
+		timeout = 10000,
+	})
 end)
 
 RegisterNetEvent('esx_holdup:startTimer')
