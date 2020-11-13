@@ -22,6 +22,36 @@ ESX.RegisterUsableItem('water', function(source)
 	TriggerClientEvent('esx:showNotification', source, _U('used_water'))
 end)
 
+ESX.RegisterUsableItem('soda', function(source)
+	local xPlayer = ESX.GetPlayerFromId(source)
+
+	xPlayer.removeInventoryItem('soda', 1)
+
+	TriggerClientEvent('esx_status:add', source, 'thirst', 200000)
+	TriggerClientEvent('esx_basicneeds:onDrink', source)
+	TriggerClientEvent('esx:showNotification', source, _U('used_soda'))
+end)
+
+ESX.RegisterUsableItem('cocacola', function(source)
+	local xPlayer = ESX.GetPlayerFromId(source)
+
+	xPlayer.removeInventoryItem('cocacola', 1)
+
+	TriggerClientEvent('esx_status:add', source, 'thirst', 200000)
+	TriggerClientEvent('esx_basicneeds:onDrink', source)
+	TriggerClientEvent('esx:showNotification', source, _U('used_coke_cola'))
+end)
+
+ESX.RegisterUsableItem('pepsicola', function(source)
+	local xPlayer = ESX.GetPlayerFromId(source)
+
+	xPlayer.removeInventoryItem('pepsicola', 1)
+
+	TriggerClientEvent('esx_status:add', source, 'thirst', 200000)
+	TriggerClientEvent('esx_basicneeds:onDrink', source)
+	TriggerClientEvent('esx:showNotification', source, _U('used_pepsi_cola'))
+end)
+
 TriggerEvent('es:addGroupCommand', 'heal', 'admin', function(source, args, user)
 	-- heal another player - don't heal source
 	if args[1] then
