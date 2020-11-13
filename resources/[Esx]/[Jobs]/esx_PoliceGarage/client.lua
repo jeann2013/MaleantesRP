@@ -253,7 +253,8 @@ VehicleMenu = function(type)
 		end
 		
 		TriggerEvent("fuel:setFuel",veh,100.0)
-		SetVehicleDirtLevel(veh, 0.1)		
+		SetVehicleDirtLevel(veh, 0.1)
+		SetVehicleHandlingData(veh,'fInitialDriveMaxFlatVel',300);
 	end, function(data, menu)
 		menu.close()
 		insideMarker = false

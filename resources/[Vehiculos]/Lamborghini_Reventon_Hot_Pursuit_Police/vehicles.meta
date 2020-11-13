@@ -3,22 +3,12 @@
   <residentTxd>vehshare</residentTxd>
   <residentAnims />
   <InitDatas>
-
-
-
-
-
-
-
-
-
-
     <Item>
       <modelName>polrevent</modelName>
       <txdName>polrevent</txdName>
       <handlingId>polrevent</handlingId>
-      <gameName>REVENTON</gameName>
-      <vehicleMakeName>LAMBORGHINI</vehicleMakeName>
+      <gameName>polrevent</gameName>
+      <vehicleMakeName>POLREVENT</vehicleMakeName>
       <expressionDictName>null</expressionDictName>
       <expressionName>null</expressionName>
       <animConvRoofDictName>null</animConvRoofDictName>

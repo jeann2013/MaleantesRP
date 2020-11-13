@@ -96,7 +96,7 @@ Config.BoatDraw3DText = "Pulsa [E] para abrir el garaje."		-- set your desired t
 
 -- Police Cars:
 Config.PoliceVehicles = {
-		{ model = '', label = '----- LSPD -----'},
+		--{ model = '', label = '----- LSPD -----'},
 		{ model = 'police', label = 'Patrulla1'},
 		{ model = 'police2', label = 'Patrulla Rapida'},
 		{ model = 'police3', label = 'Patrulla cadetes'}
@@ -132,13 +132,13 @@ Config.TitleValues = "Value"
 -- ESX.ShowNotifications:
 Config.VehicleParked = "El vehículo está en el garaje!"
 Config.NoVehicleNearby = "¡No tienes vehículo!"
-Config.CarOutFromPolGar = "Wagen uit garage gehaald!!"
-Config.HeliOutFromPolGar = "Helicopter uit garage gehaald!"
-Config.BoatOutFromPolGar = "You took out a ~b~Boat~s~ from ~y~Police Boat Garage~s~!"
-Config.VehRepNotify = "Your ~b~vehicle~s~ is being ~y~repaired~s~, please wait!"
-Config.VehRepDoneNotify = "Your ~b~vehicle~s~ has been ~y~repaired~s~!"
-Config.VehCleanNotify = "Your ~b~vehicle~s~ is being ~y~cleaned~s~, please wait!"
-Config.VehCleanDoneNotify = "Your ~b~vehicle~s~ has been ~y~cleaned~s~!"
+Config.CarOutFromPolGar = "Coche retirado del garaje!!"
+Config.HeliOutFromPolGar = "Helicopter retirado del garaje!"
+Config.BoatOutFromPolGar = "Sacastes un ~b~Barco~s~ del ~y~Garaje de botes de policia~s~!"
+Config.VehRepNotify = "Tu ~b~vehículo~s~ se esta ~y~reparando~s~, espere por favor!"
+Config.VehRepDoneNotify = "Tu ~b~vehículo~s~ ha sido ~y~reparado~s~!"
+Config.VehCleanNotify = "Tu ~b~vehículo~s~  se esta ~y~limpiando~s~, espere por favor!"
+Config.VehCleanDoneNotify = "Tu ~b~vehículo~s~ ha sido ~y~limpiado~s~!"
 
 -- ProgressBars text
 Config.Progress1 = "AUTO PARANDAMINE"
@@ -148,7 +148,7 @@ Config.Progress2 = "AUTO PUHASTAMINE"
 Config.RepairTime = 5					-- time to repair vehicle
 Config.CleanTime = 3.5					-- time to clean vehicle
 
-Config.VehicleLoadText = "Wait for vehicle to spawn"			-- text on screen when vehicle model is being loaded
+Config.VehicleLoadText = "Espere a que aparezca el vehículo"			-- text on screen when vehicle model is being loaded
 
 -- Distance from garage marker to the point where /fix and /clean shall work
 Config.Distance = 20
