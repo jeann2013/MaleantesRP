@@ -14,5 +14,5 @@ end
 ESX.RegisterUsableItem('joint',function(source,...) MFS.Smoke(source,true); end)
 ESX.RegisterUsableItem('cigarette',function(source,...) MFS.Smoke(source,false); end)
 ESX.RegisterUsableItem('beer',function(source,...) MFS.Drink(source,true); end)
-ESX.RegisterUsableItem('soda',function(source,...) MFS.Drink(source,true); end)
+--ESX.RegisterUsableItem('soda',function(source,...) MFS.Drink(source,true); end)
 TriggerEvent("es:addGroupCommand",'healStress', "admin", function(source,args) TriggerClientEvent('Stress:Heal',source); end)
