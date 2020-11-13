@@ -1,5 +1,4 @@
 Locales['es'] = {
-
 	['robbery_cancelled'] = '¡el robo ha sido cancelado!',
 	['shop_robbery'] = 'Robo en joyería',
 	['press_to_rob'] = 'Dispara para iniciar el robo',
@@ -32,5 +31,4 @@ Locales['es'] = {
 	['smash_case'] = 'Ventanas rotas',
 	['press_to_sell'] = 'Presione ~INPUT_PICKUP~ para vender joyas',
 	['need_bag'] = '¡Necesitas la bolsa! Ve a la tienda de ropa más cercana.'
-
 }
