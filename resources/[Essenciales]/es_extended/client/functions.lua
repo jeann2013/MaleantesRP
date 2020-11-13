@@ -120,6 +120,8 @@ ESX.UI.HUD.RemoveElement = function(name)
 		end
 	end
 
+	print(name);
+
 	SendNUIMessage({
 		action    = 'deleteHUDElement',
 		name      = name

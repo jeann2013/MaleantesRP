@@ -92,11 +92,11 @@ Stores = {
 		secondsRemaining = 300, -- seconds
 		lastRobbed = 0
 	},
-	["rockford_jewlery"] = {
-		position = { x = -621.989135742188, y = -230.804443359375, z = 38.0570297241211 },
-		reward = math.random(300000, 900000),
-		nameOfStore = "Vangelico Jewelry name. (Rockford Hills)",
-		secondsRemaining = 300, -- seconds
-		lastRobbed = 0
-	}
+	--["rockford_jewlery"] = {
+	--	position = { x = -621.989135742188, y = -230.804443359375, z = 38.0570297241211 },
+	--	reward = math.random(300000, 900000),
+	--	nameOfStore = "Vangelico Jewelry name. (Rockford Hills)",
+	--	secondsRemaining = 300, -- seconds
+	--	lastRobbed = 0
+	--}
 }
