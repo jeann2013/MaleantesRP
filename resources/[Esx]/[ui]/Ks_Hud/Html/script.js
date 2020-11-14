@@ -25,11 +25,12 @@ window.addEventListener('message', function (event) {
             $('#healtlevel').addClass('red')
         }
 
-        if(data.veh){
-            $("#StatusHud").animate({"left": '28vh', "bottom":'3vh'},200 );
-        }else if(!data.veh){
-            $("#StatusHud").animate({"left": '0.7vh', "bottom":'0.7vh'},350 );
+        if(data.veh || !data.veh) {
+            $("#StatusHud").animate({"left": '28vh', "bottom": '3vh'}, 200);
         }
+        // }else if(!data.veh){
+        //     $("#StatusHud").animate({"left": '0.7vh', "bottom":'0.7vh'},350 );
+        // }
 
         $('#shieldval').html(Math.round(data.armour))
         $('#hungerlevel').html(Math.round(data.food))

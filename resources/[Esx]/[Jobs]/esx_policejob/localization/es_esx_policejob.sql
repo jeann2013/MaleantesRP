@@ -47,7 +47,7 @@ INSERT INTO `fine_types` (label, amount, category) VALUES
 	('No pararse en una señal de STOP', 105, 0),
 	('No pararse en un semáforo cuando está en rojo', 130, 0),
 	('Cruzar indebidamente', 100, 0),
-	('Conducir un coche no permitido', 100, 0),
+	('Conducir un auto no permitido', 100, 0),
 	('Conducir sin carnet de conducción', 1500, 0),
 	('Chocar y darse a la fuga', 800, 0),
 	('Exceder la velocidad permitida en 5 km/h', 90, 0),

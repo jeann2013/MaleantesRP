@@ -64,7 +64,7 @@ Citizen.CreateThread(function()
         if IsPedSittingInAnyVehicle(PlayerPedId()) then
             DisplayRadar(true)
         else
-            DisplayRadar(false)
+            DisplayRadar(true)
         end
 
         SendNUIMessage({
