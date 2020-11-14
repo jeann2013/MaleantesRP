@@ -83,7 +83,7 @@ function ListVehiclesMenu(garage, KindOfVehicle)
 				
 			end
 		else
-			table.insert(elements, {label ="No hay coches en el garaje." , value = nil})
+			table.insert(elements, {label ="No hay autos en el garaje." , value = nil})
 		end
 		ESX.UI.Menu.Open(
 		'default', GetCurrentResourceName(), 'spawn_vehicle',
@@ -94,8 +94,8 @@ function ListVehiclesMenu(garage, KindOfVehicle)
 		},
 		function(data, menu)
 			local elem = {}
-			table.insert(elem, {label ="Sacar el coche" , value = 'get_vehicle_out'})
-			table.insert(elem, {label ="Renombrar el coche" , value = 'rename_vehicle'})
+			table.insert(elem, {label ="Sacar el auto" , value = 'get_vehicle_out'})
+			table.insert(elem, {label ="Renombrar el auto" , value = 'rename_vehicle'})
 			if data.current.value.vehiclename == 'coche' then
 				vehicleName = GetDisplayNameFromVehicleModel(data.current.value.vehicle.model)
 			else
@@ -375,7 +375,7 @@ function ReturnVehicleMenu(garage, KindOfVehicle)
 		},
 		function(data, menu)
 			if data.current.value == 'fourrieremecano' then
-				ESX.ShowNotification("Consulte con la policía o el mecánico para averiguar como recuperar tu coche.")
+				ESX.ShowNotification("Consulte con la policía o el mecánico para averiguar como recuperar tu auto.")
 			elseif data.current.value ~= nil then
 				local iscaronearth = false
 				for k,v in pairs (carInstance) do

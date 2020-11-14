@@ -82,7 +82,7 @@ Locales['es'] = {
   ['being_searched'] = 'Tu estas siendo ~y~examinado~s~ por el ~b~Policia~s~',
   -- Vehicle interaction
   ['vehicle_info'] = 'Información del vehículo',
-  ['pick_lock'] = 'Forzar coche',
+  ['pick_lock'] = 'Forzar auto',
   ['vehicle_unlocked'] = 'Vehículo desbloqueado~s~',
   ['no_vehicles_nearby'] = 'No hay vehículos cerca',
   ['impound'] = 'Vehículo incautado',

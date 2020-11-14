@@ -113,7 +113,7 @@ Locales['en'] = {
 	['animation_party_shagging'] = 'Shagging aéreo',
 	['animation_party_rock'] = 'Rock n roll',
 	['animation_party_drunk'] = 'Atascado en un lugar',
-	['animation_party_vomit'] = 'Vomitar en coche',
+	['animation_party_vomit'] = 'Vomitar en auto',
 
 	['animation_salute_title'] = 'Saludos',
 	['animation_salute_saluate'] = 'Saludar',
