@@ -42,6 +42,16 @@ ESX.RegisterUsableItem('cocacola', function(source)
 	TriggerClientEvent('esx:showNotification', source, _U('used_coke_cola'))
 end)
 
+ESX.RegisterUsableItem('beer', function(source)
+	local xPlayer = ESX.GetPlayerFromId(source)
+
+	xPlayer.removeInventoryItem('beer', 1)
+
+	--TriggerClientEvent('esx_status:add', source, 'thirst', 200000)
+	TriggerClientEvent('esx_basicneeds:onDrink', source)
+	TriggerClientEvent('esx:showNotification', source, _U('used_beer'))
+end)
+
 ESX.RegisterUsableItem('pepsicola', function(source)
 	local xPlayer = ESX.GetPlayerFromId(source)
 
