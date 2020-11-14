@@ -100,7 +100,7 @@ end)
 
 Citizen.CreateThread(function()
 	while true do
-		Wait(100)
+		Wait(1000)
 		if selling then
 			local player = GetPlayerPed(-1)
   			local playerloc = GetEntityCoords(player, 0)

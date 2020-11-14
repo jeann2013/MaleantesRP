@@ -2,7 +2,7 @@ Locales ['es'] = {
   -- weed
   ['weed_pickupprompt'] = 'Presiona ~INPUT_CONTEXT~ para cosechar la planta de ~g~Cannabis~s~.',
   ['weed_inventoryfull'] = 'No tienes más espacio de inventario para ~g~Cannabis~s~.',
-  ['weed_processprompt'] = 'Presiona ~INPUT_CONTEXT~ para empezar ~gProcesar Cannabis~s~.',
+  ['weed_processprompt'] = 'Presiona ~INPUT_CONTEXT~ para empezar ~g~Procesar Cannabis~s~.',
   ['weed_processingstarted'] = 'Procesando ~g~Cannabis~s~ dentro ~g~Marihuana~s~...',
   ['weed_processingfull'] = 'Procesado ~r~cancelado~s~ ¡porque tienes el inventario lleno!',
   ['weed_processingenough'] = 'Debes tener ~b2x~s~ ~g~Cannabis~s~ encima para procesar.',
@@ -26,7 +26,7 @@ Locales ['es'] = {
   -- coke
   ['coke_pickupprompt'] = 'Presiona ~INPUT_CONTEXT~ para cosechar la planta de ~g~Coca~s~.',
   ['coke_inventoryfull'] = 'No tienes más espacio de inventario para ~g~Hoja de coca~s~.',
-  ['coke_processprompt'] = 'Presiona ~INPUT_CONTEXT~ para comenzar a ~gProcesar Cocaína~s~.',
+  ['coke_processprompt'] = 'Presiona ~INPUT_CONTEXT~ para comenzar a ~g~Procesar Cocaína~s~.',
   ['coke_processingstarted'] = 'Procesando ~g~Cocaína~s~...',
   ['coke_processingfull'] = 'Procesado ~r~cancelado~s~ ¡porque tienes el inventario lleno!',
   ['coke_processingenough'] = 'Debes tener ~b~3x~s~ ~g~Hoja De Coca~s~ encima para procesar.',
@@ -36,7 +36,7 @@ Locales ['es'] = {
   -- lsd
   ['lsd_processingstarted'] = 'Procesando ~g~LSD~s~...',
   ['lsd_processingfull'] = 'Procesado ~r~cancelado~s~ ¡porque tienes el inventario lleno!',
-  ['lsd_processprompt'] = 'Presiona ~INPUT_CONTEXT~ para comenzar a ~gProcesar LSD~s~.',
+  ['lsd_processprompt'] = 'Presiona ~INPUT_CONTEXT~ para comenzar a ~g~Procesar LSD~s~.',
   ['lsd_processingenough'] = 'Debes tener ~b~1x~s~ ~g~LSA~s~ y ~b~1x~s~ ~g~Cloruro De Tionilo~s~ encima para procesar.',
   ['lsd_processed'] = 'Has procesado ~b~1x~s~ ~g~LSD~s~',
   ['lsd_processingtoofar'] = 'El procesado ha sido ~r~cancelado~s~ porque te has alejado demasiado.',

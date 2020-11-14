@@ -53,13 +53,13 @@ end)
 
 ESX.RegisterServerCallback('esx_illegal:canPickUp', function(source, cb, item)
 	local xPlayer = ESX.GetPlayerFromId(source)
-	cb(xPlayer.canCarryItem(item, 1))
+	--cb(xPlayer.canCarryItem(item, 1))
 	--local xPlayer = ESX.GetPlayerFromId(source)
-	--local xItem = xPlayer.getInventoryItem(item)
+	local xItem = xPlayer.getInventoryItem(item)
 	--
-	--if xItem.limit ~= -1 and xItem.count >= xItem.limit then
-	--	cb(false)
-	--else
-	--	cb(true)
-	--end
+	if xItem.limit ~= -1 and xItem.count >= xItem.limit then
+		cb(false)
+	else
+		cb(true)
+	end
 end)

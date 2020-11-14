@@ -8,7 +8,7 @@ Citizen.CreateThread(function()
 		Citizen.Wait(10)
 		local coords = GetEntityCoords(PlayerPedId())
 
-		if GetDistanceBetweenCoords(coords, Config.CircleZones.WeedField.coords, true) < 50 then
+		if GetDistanceBetweenCoords(coords, Config.CircleZones.WeedField.coords, true) < 5 then
 			SpawnWeedPlants()
 			Citizen.Wait(500)
 		else

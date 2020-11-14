@@ -172,13 +172,13 @@ AddEventHandler('check', function()
 	local _source = source
 	local xPlayer = ESX.GetPlayerFromId(_source)
 	local xPlayers = ESX.GetPlayers()
-	local weedqty = xPlayer.getInventoryItem('weed_pooch').count
+	--local weedqty = xPlayer.getInventoryItem('weed_pooch').count
 	local weedqtySingle = xPlayer.getInventoryItem('weed').count
-	local methqty = xPlayer.getInventoryItem('meth_pooch').count
+	--local methqty = xPlayer.getInventoryItem('meth_pooch').count
 	local methqtySingle = xPlayer.getInventoryItem('meth').count
-	local cokeqty = xPlayer.getInventoryItem('coke_pooch').count
+	--local cokeqty = xPlayer.getInventoryItem('coke_pooch').count
 	local cokeqtySingle = xPlayer.getInventoryItem('coke').count
-	local opiuqty = xPlayer.getInventoryItem('opium_pooch').count
+	--local opiuqty = xPlayer.getInventoryItem('opium_pooch').count
 	local opiuqtySingle = xPlayer.getInventoryItem('opium').count
 	--check cops count on server
 	local cops = 0
