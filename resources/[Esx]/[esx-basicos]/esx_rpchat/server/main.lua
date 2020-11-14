@@ -45,6 +45,12 @@ TriggerEvent('es:addCommand', 'twt', function(source, args, user)
   end)
 end, {help = 'Manda un tweet. [IC]'})
 
+TriggerEvent('es:addCommand', 'ooc', function(source, args, user)
+  getIdentity(source, function(data)
+    TriggerClientEvent('chatMessage', -1, "[" .. source .. "] ^0[^OOC^0] (^5@" .. data.firstname .. " " .. data.lastname .. "^0)", {255, 255, 0}, table.concat(args, " "))
+  end)
+end, {help = 'Manda un OOC. [IC]'})
+
 TriggerEvent('es:addCommand', 'anonimo', function(source, args, user)
   TriggerClientEvent('chatMessage', -1, "[" .. source .. "] Anónimo ^0" , {128, 128, 128}, table.concat(args, " "))
 end, {help = 'Send an out of character message to the whole server.'})
