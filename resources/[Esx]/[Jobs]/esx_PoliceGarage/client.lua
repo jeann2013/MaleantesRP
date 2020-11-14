@@ -243,17 +243,27 @@ VehicleMenu = function(type)
 		local veh = CreateVehicle(data.current.model,pos.x,pos.y,pos.z,GetEntityHeading(playerPed),true,false)
 		SetPedIntoVehicle(GetPlayerPed(-1),veh,-1)
 		SetVehicleNumberPlateText(veh,plate)
-		
+
 		if type == 'car' then
+
 			ESX.ShowNotification(Config.CarOutFromPolGar)
 		elseif type == 'helicopter' then
 			ESX.ShowNotification(Config.HeliOutFromPolGar)
 		elseif type == 'boat' then
 			ESX.ShowNotification(Config.BoatOutFromPolGar)
 		end
-		
+		--SetVehicleHandlingData(veh,true)
+		SetVehicleHandlingData(veh,'Mass',"300.00000")
+
+		--SetVehicleHandlingData(veh,'fInitialDragCoeff',"9.25000")
+		--SetVehicleHandlingData(veh,'fPercentSubmerged',"85.000000")
+		--SetVehicleHandlingData(veh,'fInitialDriveForce',"0.310000")
+		--SetVehicleHandlingData(veh,'fDriveInertia',"1.000000")
+		SetVehicleMaxSpeed(veh,300);
+
 		TriggerEvent("fuel:setFuel",veh,100.0)
-		SetVehicleDirtLevel(veh, 0.1)		
+		SetVehicleDirtLevel(veh, 0.1)
+
 	end, function(data, menu)
 		menu.close()
 		insideMarker = false
