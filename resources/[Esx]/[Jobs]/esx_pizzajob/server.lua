@@ -28,10 +28,10 @@ AddEventHandler("pizza:paiefinale", function()
 	xPlayer.addMoney(flouzefin)
 
 	TriggerClientEvent("pNotify:SendNotification", source, {
-		text = "Voici votre petit bonus final : " .. flouzefin .. "$",
+		text = "Aquí está tu pequeño bono final : " .. flouzefin .. "$",
 		type = "success",
 		queue = "global",
-		timeout = 4000,
+		timeout = 4600,
 		layout = "bottomRight"
 	})
 end)

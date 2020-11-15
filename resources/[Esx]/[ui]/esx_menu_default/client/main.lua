@@ -69,6 +69,9 @@ Citizen.CreateThread(function()
 		local menu = ESX.UI.Menu.GetOpened(MenuType, data._namespace, data._name)
 
 		for i=1, #data.elements, 1 do
+
+			print(data.elements[i].value);
+
 			menu.setElement(i, 'value', data.elements[i].value)
 
 			if data.elements[i].selected then

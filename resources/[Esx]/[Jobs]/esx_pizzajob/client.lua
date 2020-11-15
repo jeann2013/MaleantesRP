@@ -74,7 +74,7 @@ local blips = {
   {title="Pizzeria", colour=51, id=103, x = -1285.73, y = -1387.15, z = 3.44}, --Configuration du point sur la carte
 }
 
-local coefflouze = 0.1 --Coeficient multiplicateur qui en fonction de la distance definit la paie
+local coefflouze = 0.9 --Coeficient multiplicateur qui en fonction de la distance definit la paie
 
 --INIT--
 
@@ -293,7 +293,7 @@ Citizen.CreateThread(function() --Thread lancement + livraison depuis le marker 
           end
         else
 
-          notifmoto2 = true
+          --notifmoto2 = true
 
           while notifmoto2 == true do
 
